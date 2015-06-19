@@ -595,8 +595,14 @@ ul.page-numbers{float: right;overflow:hidden; display:block;}
 	h2, h3{page-break-after:avoid} 
 }
  
- 
+.invert_quote {
+	margin-left: 100px;
+	-ms-transform: rotate(180deg); /* IE 9 */
+    -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+    transform: rotate(180deg);
+}
+
  
 /* -------------------------------------------------------------
 ======	END
-------------------------------------------------------------- */
+------------------------------------------------------------- 
