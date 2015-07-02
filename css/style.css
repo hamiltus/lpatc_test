@@ -261,7 +261,11 @@ body{width:100%; background: /*url(../img/stripes.png)*/ no-repeat 40% 0;}
 ------------------------------------------------------------- */
 figure { max-height: 100%; overflow: hidden;}
 figure figcaption { }
-img { max-width: 100%; height: auto; width: auto; }
+img {
+	max-width: 100%;
+	height: auto;
+	width: auto;
+}
 a img {
     -webkit-transition: opacity 1s ease;
     -moz-transition: opacity 1s ease;
@@ -282,10 +286,19 @@ a img:hover {
     
 /* -- HEADER
 ------------------------------------------------------------- */
-header#navtop { margin-bottom: 2em; clear: both; overflow: hidden; }
+header#navtop {
+	margin-bottom: 2em;
+	clear: both;
+	overflow: hidden;
+	float: auto;
+	position:relative;
+	background:url(../img/img.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
     header nav ul { float: left; overflow: hidden; padding: 0 3em 0 2em; border-left: 1px solid #ddd; line-height: 2em; }
-nav a, menu a { text-decoration: none; color: #555; }
-.navactive { color: black }
+nav a, menu a { text-decoration: underline; color: blue; }
+.navactive { color: white }
 .logo {margin-bottom: 3em;}
 .logo:hover {background: none;}
 		
@@ -601,8 +614,15 @@ ul.page-numbers{float: right;overflow:hidden; display:block;}
     -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
     transform: rotate(180deg);
 }
-
- 
+#calendar {
+}
+ .Site_Title {
+	background-image: url(../img/img2.jpg);
+	background-repeat: no-repeat;
+}
+.Banner {
+	text-align:center;
+}
 /* -------------------------------------------------------------
 ======	END
 ------------------------------------------------------------- 
